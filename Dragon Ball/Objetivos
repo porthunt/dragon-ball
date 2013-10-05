@@ -1,0 +1,21 @@
+ ID |   Prioridade 	 | Objetivo
+
+
+
+ 1	|		 1		 | Ir para ponto de interesse se ele estiver no radar (e não houver esfera).
+ 2	|		 1 		 | Verificar se ponto de interese já visitado.
+ 3	|		 1 		 | Marcar ponto de interesse como visitado.
+ 4	|		 1 		 | Decidir ponto de interesse fora do radar.
+ 5	|		 1		 | Ir para borda na direção do ponto de interesse fora do radar.
+ 6 	|		 1 		 | Ajustar caminho para duas ou mais esferas.
+ 7	|		 1 		 | Atualizar custo no Label.
+ 8	|		 2		 | Volta para a casa do mestre kame no final.
+ 9	|	 	 2 		 | Remover esfera do mapa, contabilizar no Goku e verificar se é a última.
+10	|		 3		 | Tirar pisca-pisca (repaint ao invés de new Tela).
+11	|		 3 		 | Colocar label das esfera quando pegar uma.
+12	|		 3		 | Colocar informações em outro frame.
+
+1. Botar PdI como objetivo e vai para lá.
+2. Identificar cenário só adiciona pontos de interesse que não foram visitados.
+3. 
+4. 
